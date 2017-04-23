@@ -3,9 +3,9 @@
 
 	angular
 		.module('login_register',[])
-		.controller('LoginRegisterCtrl', LoginRegisterCtrl);
+		.controller('LoginRegisterController', LoginRegisterController);
 
-	function LoginRegisterCtrl(){
+	function LoginRegisterController(){
 
 	}
 })();

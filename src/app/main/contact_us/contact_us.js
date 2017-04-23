@@ -3,9 +3,9 @@
 
 	angular
 		.module('contact_us',[])
-		.controller('Contact_usCtrl', Contact_usCtrl);
+		.controller('Contact_usController', Contact_usController);
 
-	function Contact_usCtrl(){
+	function Contact_usController(){
 
 	}
 })();

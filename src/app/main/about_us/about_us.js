@@ -3,7 +3,7 @@
 
 	angular
 		.module('about_us',[])
-		.controller('AboutUsCtrl', AboutUsController);
+		.controller('AboutUsController', AboutUsController);
 
 	function AboutUsController(){
 

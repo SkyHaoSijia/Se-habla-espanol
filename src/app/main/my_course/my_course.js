@@ -3,9 +3,9 @@
 
 	angular
 		.module('my_course',[])
-		.controller('MyCourseCtrl', MyCourseCtrl);
+		.controller('MyCourseController', MyCourseController);
 
-	function MyCourseCtrl(){
+	function MyCourseController(){
 
 	}
 })();

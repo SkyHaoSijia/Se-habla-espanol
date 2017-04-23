@@ -3,9 +3,9 @@
 
 	angular
 		.module('enterprise_training',[])
-		.controller('Enterprise_trainingCtrl', Enterprise_trainingCtrl);
+		.controller('Enterprise_trainingController', Enterprise_trainingController);
 
-	function Enterprise_trainingCtrl(){
+	function Enterprise_trainingController(){
 
 	}
 })();
