@@ -20,11 +20,11 @@
         return $q.when([{}, {}, {}, {}, {}, {}]);
       });
 
-      el = angular.element('<acme-malarkey extra-values="[\'Poney\', \'Monkey\']"></acme-malarkey>');
+      //el = angular.element('<acme-malarkey extra-values="[\'Poney\', \'Monkey\']"></acme-malarkey>');
 
-      $compile(el)($rootScope.$new());
-      $rootScope.$digest();
-      vm = el.isolateScope().vm;
+      //$compile(el)($rootScope.$new());
+      //$rootScope.$digest();
+      //vm = el.isolateScope().vm;
     }));
 
     it('should be compiled', function() {
