@@ -13,7 +13,7 @@
     var timeInMs;
 
     beforeEach(module('seHablaEspanol'));
-    beforeEach(inject(function($compile, $rootScope) {
+    beforeEach(inject(function() {//$compile, $rootScope
       // spyOn(_$window_, 'moment').and.callThrough();
       // $window = _$window_;
 
