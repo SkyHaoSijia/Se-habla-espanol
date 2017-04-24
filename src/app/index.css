@@ -12,3 +12,17 @@
 .thumbnail img.pull-right {
   width: 50px;
 }
+body {
+	position: relative;
+}
+
+@media (min-width: 992px){
+	.container {
+    	width: 1170px !important;
+	}
+}
+@media (min-width: 768px) {
+	.container {
+    	width: 1170px !important;
+	}
+}

@@ -7,6 +7,8 @@
 
   /** @ngInject */
   function MainController($timeout, webDevTec, toastr) {
+    angular.element('.nav .active').removeClass("active");
+    angular.element('.nav .home').addClass("active");
     var vm = this;
 
     vm.awesomeThings = [];
