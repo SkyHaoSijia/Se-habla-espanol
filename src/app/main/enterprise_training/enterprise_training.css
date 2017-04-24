@@ -1,1 +1,76 @@
-enterprise_training.css
+/*** enterprise_header ***/
+.enterprise_header{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	/*background-image: url("img/Photo.png");
+	background-position:0% 100%;
+	background-size:cover;
+	height: 580px;*/
+}
+.enterprise_title{
+	font-size: 3vw;
+	position:absolute; 
+	top:25%; 
+	width: 100%;
+	color: white;
+	font-weight: bold;
+}
+.foreign_title{
+	font-size: 2.5vw;
+	position:absolute; 
+	top: 37%; 
+	width: 100%;
+	color: white;
+	font-family: DIN Condensed;
+	z-index: 1;
+    /*background-color: #f99728;*/
+}
+.bkg{
+	background-color: #f99728;
+	width: 26%;
+	height: 1.4em;
+	position:absolute; 
+	top: 40%; 
+	right: 37%;
+	z-index: 0;
+}
+.main_img{
+    width:100%;
+    /*position: relative;
+    margin: -260px 0px 0 0;
+    z-index:0;*/
+}
+/*** enterprise_header ***/
+
+
+/*** Service_flow ***/
+.Service_flow{
+    margin-top: 100px;
+    position: relative;
+}
+.Service_icon{
+	position: absolute;
+	right: 54%;
+	top: -0.8%;
+	width: 3%;
+}
+.Service_title{
+	color: #f99728;
+	font-size: 1.5vw;
+	/*background-image: url("img/服务流程icon.png");
+	background-repeat: no-repeat;
+	background-size:23px 23px;
+    background-position:44.5% 0%;*/
+}
+.Service_pic{
+	margin-top: 100px;
+}
+/*** Service_flow ***/
+
+
+
+
+
+
+
