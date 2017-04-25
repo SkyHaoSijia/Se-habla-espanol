@@ -7,5 +7,7 @@
 ## Build & Run
 
 1.Run `npm install` to install the dependencies.
+
 2.Run `bower install` to install the dependencies.
+
 2.Run `gulp serve` to compile & open the website on http://localhost:3000/
