@@ -92,6 +92,7 @@
 /*step1*/
 .step1{
     font-family: DIN Condensed;
+    color: #494949;
 }
 .step1_num{
     position: absolute;
@@ -116,6 +117,7 @@
 /*step2*/
 .step2{
     font-family: DIN Condensed;
+    color: #494949;
 }
 .step2_num{
     position: absolute;
@@ -140,6 +142,7 @@
 /*step3*/
 .step3{
     font-family: DIN Condensed;
+    color: #494949;
 }
 .step3_num{
     position: absolute;
@@ -164,6 +167,7 @@
 /*step4*/
 .step4{
     font-family: DIN Condensed;
+    color: #494949;
 }
 .step4_num{
     position: absolute;
@@ -188,6 +192,7 @@
 /*step5*/
 .step5{
     font-family: DIN Condensed;
+    color: #494949;
 }
 .step5_num{
     position: absolute;
@@ -212,6 +217,7 @@
 /*step6*/
 .step6{
     font-family: DIN Condensed;
+    color: #494949;
 }
 .step6_num{
     position: absolute;
@@ -236,10 +242,66 @@
 
 
 
-.enterprise_footer{
+
+/*** 课程特色 ***/
+.course_characteristics{
+	background-color: #f4f4f4;
 	width: 100%;
-	height: 500px;
+	margin-top: 200px;
 }
+.character_img_box{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-left: 150px;
+}
+.character_img{
+	width: 80%;
+}
+.character_word_box{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-left: 50px;
+}
+.character_title{
+	color: #f99728;
+	font-size: 2.5rem;
+}
+.characters_list{
+    margin-top: 30px;
+}
+.characters{
+    margin-top: 30px;
+}
+.case_list1{
+	margin-bottom: 50px;
+}
+/*** 课程特色 ***/
+
+
+
+/*** 成功案例 ***/
+.Successful_title{
+    color: #f99728;
+	font-size: 2.5rem;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.enterprise_name{
+	margin-top: 20px;
+}
+.baojie{
+	width: 50%;
+}
+.zara{
+	width: 75%;
+}
+.jialefu{
+	width: 80%;
+}
+/*** 成功案例 ***/
+
+
+
 
 
 
