@@ -130,10 +130,16 @@
 .Service_pic{
 	margin-top: 100px;
 	position: relative;
+    background-image: url("img/流程图.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:332px;
+    height: 900px;
+    background-position:center;
 }
-.Service_pic_img{
+/*.Service_pic_img{
     width: 30%;
-}
+}*/
 
 /*step1*/
 .step1{
@@ -142,32 +148,22 @@
 }
 .step1_num{
     position: absolute;
-    top:-0.1%;
-    left: 60.4%;
+    top:2.9%;
+    left: 60.1%;
     color: white;
     font-size: 4rem;
 }
 .step1_header{
 	position: absolute;
-    top:0.2%;
-    left: 68%;
+    top:3.2%;
+    left: 67%;
     font-size: 2.5rem;
 }
 .step1_img{
 	position: absolute;
-    top:-4%;
+    top:-2%;
     left: 21.6%;
     width: 19%;
-}
-@media (max-width: 768px) {
-    .step1_num{
-        top:-1.5%;
-        font-size: 2.8rem;
-    }
-    .step1_header{
-        top:-0.8%;
-        font-size: 2rem;
-    }
 }
 
 /*step2*/
@@ -177,34 +173,22 @@
 }
 .step2_num{
     position: absolute;
-    top:18.2%;
-    left: 36.35%;
+    top:20.2%;
+    left: 36.7%;
     color: white;
     font-size: 4rem;
 }
 .step2_header{
 	position: absolute;
-    top:18.7%;
-    left: 19%;
+    top:20.7%;
+    left: 19.2%;
     font-size: 2.5rem;
 }
 .step2_img{
 	position: absolute;
-    top:13.4%;
+    top:15.4%;
     left: 58.6%;
     width: 19%;
-}
-@media (max-width: 768px) {
-    .step2_num{
-        top:16.9%;
-        left: 36.25%;
-        font-size: 2.8rem;
-    }
-    .step2_header{
-        top:17.7%;
-        left: 17%;
-        font-size: 2rem;
-    }
 }
 
 /*step3*/
@@ -214,34 +198,22 @@
 }
 .step3_num{
     position: absolute;
-    top:36.6%;
-    left: 60.4%;
+    top:37.4%;
+    left: 60.1%;
     color: white;
     font-size: 4rem;
 }
 .step3_header{
 	position: absolute;
-    top: 37.3%;
-    left: 68%;
+    top: 37.8%;
+    left: 67%;
     font-size: 2.5rem;
 }
 .step3_img{
 	position: absolute;
-    top:31.9%;
+    top:33.3%;
     left: 21.6%;
     width: 19%;
-}
-@media (max-width: 768px) {
-    .step3_num{
-        top:35.3%;
-        left: 60.2%;
-        font-size: 2.8rem;
-    }
-    .step3_header{
-        top: 36.3%;
-        left: 68%;
-        font-size: 2rem;
-    }
 }
 
 /*step4*/
@@ -251,8 +223,8 @@
 }
 .step4_num{
     position: absolute;
-    top:55%;
-    left: 36.35%;
+    top:54.5%;
+    left: 36.7%;
     color: white;
     font-size: 4rem;
 }
@@ -264,21 +236,9 @@
 }
 .step4_img{
 	position: absolute;
-    top:50.3%;
+    top:50.7%;
     left: 58.6%;
     width: 19%;
-}
-@media (max-width: 768px) {
-    .step4_num{
-        top:53.8%;
-        left: 36.25%;
-        font-size: 2.8rem;
-    }
-    .step4_header{
-        top: 52.1%;
-        left: 19.5%;
-        font-size: 2rem;
-    }
 }
 
 /*step5*/
@@ -288,34 +248,22 @@
 }
 .step5_num{
     position: absolute;
-    top:73.5%;
-    left: 60.35%;
+    top:71.8%;
+    left: 60.1%;
     color: white;
     font-size: 4rem;
 }
 .step5_header{
 	position: absolute;
-    top: 73.9%;
-    left: 68%;
+    top: 72.4%;
+    left: 67%;
     font-size: 2.5rem;
 }
 .step5_img{
 	position: absolute;
-    top:69.1%;
+    top:68.1%;
     left: 21.6%;
     width: 19%;
-}
-@media (max-width: 768px) {
-    .step5_num{
-        top:72%;
-        left: 60.2%;
-        font-size: 2.8rem;
-    }
-    .step5_header{
-        top: 72.9%;
-        left: 68%;
-        font-size: 2rem;
-    }
 }
 
 
@@ -326,34 +274,22 @@
 }
 .step6_num{
     position: absolute;
-    top:91.8%;
-    left: 36.35%;
+    top:88.8%;
+    left: 36.7%;
     color: white;
     font-size: 4rem;
 }
 .step6_header{
 	position: absolute;
-    top: 92.5%;
-    left: 23.1%;
+    top: 89.5%;
+    left: 23.5%;
     font-size: 2.5rem;
 }
 .step6_img{
 	position: absolute;
-    top:86.4%;
+    top:85%;
     left: 58.6%;
     width: 19%;
-}
-@media (max-width: 768px) {
-    .step6_num{
-        top:90.4%;
-        left: 36.25%;
-        font-size: 2.8rem;
-    }
-    .step6_header{
-        top: 90.5%;
-        left: 22.3%;
-        font-size: 2rem;
-    }
 }
 /*** Service_flow ***/
 
