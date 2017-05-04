@@ -7,7 +7,7 @@
 
 	function Enterprise_trainingController(){
 		angular.element('.nav .active').removeClass("active");
-		angular.element('.nav .about-us').addClass("active");
+		angular.element('.nav .enterprise-training').addClass("active");
 		console.log("test");
 	}
 })();

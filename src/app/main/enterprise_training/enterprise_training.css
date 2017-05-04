@@ -80,6 +80,52 @@
     background-position:44.5% 0%;*/
 }
 
+@media (max-width: 768px) and (min-width: 612px)  {
+    .Service_icon{
+        display: none;
+        /*position: absolute;
+        right: 61%;
+        top: -0.6%;
+        width: 25px;*/
+    }
+    .Service_title{
+        color: #f99728;
+        font-size: 2rem;
+        background-image: url("img/服务流程icon.png");
+        background-repeat: no-repeat;
+        background-size:23px 23px;
+        background-position:40% 0%;
+        
+    }
+}
+@media (max-width: 612px) and (min-width: 500px)  {
+    .Service_icon{
+        display: none;
+    }
+    .Service_title{
+        color: #f99728;
+        font-size: 2rem;
+        background-image: url("img/服务流程icon.png");
+        background-repeat: no-repeat;
+        background-size:23px 23px;
+        background-position:38% 0%;
+        
+    }
+}
+@media (max-width: 500px) {
+    .Service_icon{
+        display: none;
+    }
+    .Service_title{
+        color: #f99728;
+        font-size: 2rem;
+        background-image: url("img/服务流程icon.png");
+        background-repeat: no-repeat;
+        background-size:23px 23px;
+        background-position:34% 0%;
+        
+    }
+}
 /*流程图部分*/
 .Service_pic{
 	margin-top: 100px;
